@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>  
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <center>
+        <table>
+            <tr>
+                <td colspan="3"><input id="result" type="text" id="result"></td>
+                <td><input type="button" onclick="clearscreen()" value="C" style="background-color: #FF4136;"></td>
+               
+            </tr>
+            <tr>
+                <td><input type="button" onclick="display('7')" value="7"></td>
+                <td><input type="button" onclick="display('8')" value="8"></td>
+                <td><input type="button" onclick="display('9')" value="9"></td>
+                <td><input type="button" onclick="display('+')" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="display('4')" value="4"></td>
+                <td><input type="button" onclick="display('5')" value="5"></td>
+                <td><input type="button" onclick="display('6')" value="6"></td>
+                <td><input type="button" onclick="display('-')" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="display('1')" value="1"></td>
+                <td><input type="button" onclick="display('2')" value="2"></td>
+                <td><input type="button" onclick="display('3')" value="3"></td>
+                <td><input type="button" onclick="display('/')" value="÷""></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="display('0')" value="0"></td>
+                <td><input type="button" onclick="display('.')" value="."></td>
+                <td><input type="button" value="=" onclick="result()" style="background-color: #2ECC40;"></td>
+                <td><input type="button" onclick="display('*')" value="X"></td>
+            </tr>
+        </table>
+    </center>
+    <script src="script.js"></script>
+    </body>
+</html>
